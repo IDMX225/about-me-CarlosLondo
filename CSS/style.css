@@ -23,7 +23,7 @@
     }
     #hero, footer {  
         border: 2px solid #557361;
-        background-color: #9D5F5A;
+        background-color: #484141;
         text-align: center;
         padding:10px;    
     }
@@ -46,7 +46,7 @@ text-align: left;
     /* Gallery */
 
 #Gallery {
-    border: 4px solid #9D5F5A;
+    border: 4px solid #A06464;
  }
  #Gallery img {
         max-width: 100%;
@@ -56,4 +56,23 @@ text-align: left;
         text-align: center;
  }
  #Gallery figcaption {font-size: 23px;
+}
+
+#lit div {
+    max-width: 50rem;
+    margin: 0 auto;
+   
+}
+#lit div p { 
+    padding: 0.5rem 0;
+    clear: both;
+}
+
+#lit div p:first-child:first-letter { 
+    color:#57B37D ;
+    float:left;
+    font-size:4em ;
+    padding: .15em;
+    border: 2px solid #557361;
+    background-color: #484141;
 }
