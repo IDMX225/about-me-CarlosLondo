@@ -1,21 +1,29 @@
     body {
         font-family:serif;
-         background-color: #8690A2;
-        color: #F7D079;
+         background-color: #752822;
+        color: #3AF286;
 
     }
 
     h1, h2, h3, h4, h5, h6 { 
         font-family:"Playfair Display";
-        font-size:40pt;
+        text-align:center ;
     }
+
+    h1 {
+        font-size:40pt ;
+    }
+
+    h2{text-align: left;}
+
+
     header {
 
         text-align: center;
     }
     #hero, footer {  
-        border: 2px solid #1A68FA;
-        background-color: #323B4D;
+        border: 2px solid #557361;
+        background-color: #9D5F5A;
         text-align: center;
         padding:10px;    
     }
@@ -23,7 +31,29 @@
 #hero img { width: 450px;}
 
     #bio { font-size: 15pt;
-
-
-
+text-align: left;
     }
+
+   #hobbies ul li{
+   text-align: left;
+    font-size: 25px;
+    }
+
+    ul li:nth-child(even){ 
+        color: #57B37D;
+    }
+
+    /* Gallery */
+
+#Gallery {
+    border: 4px solid #9D5F5A;
+ }
+ #Gallery img {
+        max-width: 100%;
+ }
+
+ #Gallery figure { 
+        text-align: center;
+ }
+ #Gallery figcaption {font-size: 23px;
+}
