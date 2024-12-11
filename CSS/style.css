@@ -78,9 +78,7 @@ text-align: center;
 #Gallery {
     border: 4px solid #A06464;
  }
- #Gallery img {
-        min-width: 100%;
- }
+
 
  #Gallery figure { 
         text-align: center;
@@ -153,9 +151,17 @@ figure {
     display:block;
 }
 
-
 }
 
+figure img {
+    width: 100%;
+    height: auto;
+}
 
-
+/* Make the video container responsive */
+.video-container {
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+}
 
